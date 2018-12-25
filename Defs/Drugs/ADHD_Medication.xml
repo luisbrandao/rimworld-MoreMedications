@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-
   <ThingDef ParentName="MakeableDrugPillBase">
     <defName>AdhdMedication</defName>
     <label>adhd medication</label>
-    <description>A generic medication for those who find it hard to focus on tasks throughout their day. Take once a day to conform to the mental standards set by Rimworld societies! Be sharp, be productive, be dead inside. May cause loss of appetite. Take once a day. </description>
+    <description>A generic medication for those who find it hard to focus on tasks throughout their day. Take once a day to conform to the mental standards set by Rimworld societies! Be sharp, be productive, be dead inside. May cause loss of appetite. Take once a day.</description>
     <graphicData>
       <texPath>Things/Item/Drug/adhdmedication</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -19,9 +18,6 @@
     </statBases>
     <techLevel>Industrial</techLevel>
     <ingestible>
-	<joy>0.0</joy>
-	<foodType>Processed</foodType>
-	<baseIngestTicks>90</baseIngestTicks>
       <drugCategory>Medical</drugCategory>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
@@ -31,7 +27,7 @@
       </outcomeDoers>
     </ingestible>
     <recipeMaker>
-			<researchPrerequisite>PenoxycylineProduction</researchPrerequisite>
+      <researchPrerequisite>PenoxycylineProduction</researchPrerequisite>
       <recipeUsers>
         <li>DrugLab</li>
       </recipeUsers>
@@ -49,7 +45,6 @@
       </li>
     </comps>
   </ThingDef>
-  
   <HediffDef>
     <defName>AdhdMedication</defName>
     <hediffClass>HediffWithComps</hediffClass>
@@ -57,23 +52,21 @@
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-1</severityPerDay>
       </li>
     </comps>
-      <stages>
-        <li>
-		
-          <statOffsets>
-			<GlobalLearningFactor>0.5</GlobalLearningFactor>
-			<SocialImpact>0.05</SocialImpact>
-			<EatingSpeed>-0.5</EatingSpeed>
-			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
-          </statOffsets>
-		 
-		</li>
-      </stages>
+    <stages>
+      <li>
+        <statOffsets>
+          <GlobalLearningFactor>0.5</GlobalLearningFactor>
+          <SocialImpact>0.05</SocialImpact>
+          <EatingSpeed>-0.5</EatingSpeed>
+          <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </stages>
   </HediffDef>
-  
 </Defs>

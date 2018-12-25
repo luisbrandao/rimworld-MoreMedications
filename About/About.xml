@@ -1,18 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ModMetaData>
-<name>More Medications</name>
-<author>✬Rustic Fox✬</author>
+<name>More Medications - Reborn</name>
+<author>Techmago</author>
 <url>https://ludeon.com/forums/index.php?topic=37787.0\</url>
-<targetVersion>0.18.1722</targetVersion>
+<targetVersion>1.0.0</targetVersion>
 <description>
+This is a revive of an abandoned mod. Since this was reworked at least one time,
+im not even sure who is the Original Author.
+
+I am just keeping it alive, because i like the idea.
+	
 Adds more medications to Rimworld. For those who need more than squirrel meat and
 rice. Adds Multivitamins, Sleeping pills, ADHD Meds, Painkillers and Antidepressants.
-	
-Credits
-	
-Incantation.Games - Original Author
 
-Version: 1.0.2
+New medicine
+        Multi Vitamins – 4 Neutroamine
+        Sleeping Pills – 6 Neutroamine
+        ADHD Meds – 6 Neutroamine
+        Anti Depressants – 6 Neutroamine
+        Pain Killers – 6 Neutroamine
+
+All medicines are craftable at the drug lab.
+Effects of the new medicine
+Pain killers
+
+        1 Severity /Day
+        0.65 Pain Offset
+        0.10 Blood Pumping
+        0.05 Immunity Gain
+
+Anti Depressants
+
+        1 Severity /Day
+        0.75 Global Learning factor
+        0.15 Social Impact
+        0.15 Mental Break Threshold
+
+ADHD meds
+
+        1 Severity /Day
+        0.05 Global Learning factor
+        0.05 Social Impact
+        0.05 Mental Break Threshold
+
+Sleeping Pills
+
+        2 Severity /Day
+        0.05 Hunger Rate
+        0.5 Consciousness
+        0.50 Immunity Gain Speed
+
+Multi Vitamins
+
+        0.5 Severity /Day
+        0.05 Moving
+        0.05 Global Work Speed
+        0.05 Global Learning Factor
+        0.05 Mental Break Threshold
+        0.10 Immunity Gain Speed
+        0.05 Psychic Sensitivity
+        0.05 Toxic Sensitivity
+
+
+
+Credits (I think!)
+
+CricketSaysChill - Original Author
+Rustic Fox - Last maintainer
 </description>
 </ModMetaData>

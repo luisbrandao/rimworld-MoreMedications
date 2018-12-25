@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-
   <ThingDef ParentName="MakeableDrugPillBase">
     <defName>Antidepressants</defName>
     <label>antidepressants</label>
-    <description>They say you can heal the wounds outside, but never those within. Maybe.. but you can definitely numb them along with the rest of your brain with this synthetic medication! Take once a day. </description>
+    <description>They say you can heal the wounds outside, but never those within. Maybe.. but you can definitely numb them along with the rest of your brain with this synthetic medication! Take once a day.</description>
     <graphicData>
       <texPath>Things/Item/Drug/antidepressants</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -19,9 +18,6 @@
     </statBases>
     <techLevel>Industrial</techLevel>
     <ingestible>
-	<joy>1.0</joy>
-	<foodType>Processed</foodType>
-	<baseIngestTicks>90</baseIngestTicks>
       <drugCategory>Medical</drugCategory>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
@@ -31,7 +27,7 @@
       </outcomeDoers>
     </ingestible>
     <recipeMaker>
-			<researchPrerequisite>PenoxycylineProduction</researchPrerequisite>
+      <researchPrerequisite>PenoxycylineProduction</researchPrerequisite>
       <recipeUsers>
         <li>DrugLab</li>
       </recipeUsers>
@@ -49,7 +45,6 @@
       </li>
     </comps>
   </ThingDef>
-  
   <HediffDef>
     <defName>Antidepressants</defName>
     <hediffClass>HediffWithComps</hediffClass>
@@ -57,22 +52,20 @@
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-1</severityPerDay>
       </li>
     </comps>
-      <stages>
-        <li>
-		
-          <statOffsets>
-			<GlobalLearningFactor>-0.75</GlobalLearningFactor>
-			<MentalBreakThreshold>0.15</MentalBreakThreshold>
-			<SocialImpact>-0.15</SocialImpact>
-          </statOffsets>
-		  
-		</li>
-      </stages>
+    <stages>
+      <li>
+        <statOffsets>
+          <GlobalLearningFactor>-0.75</GlobalLearningFactor>
+          <MentalBreakThreshold>-0.40</MentalBreakThreshold>
+          <SocialImpact>-0.15</SocialImpact>
+        </statOffsets>
+      </li>
+    </stages>
   </HediffDef>
-  
 </Defs>

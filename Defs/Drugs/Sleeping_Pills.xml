@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-
   <ThingDef ParentName="MakeableDrugPillBase">
     <defName>SleepingPills</defName>
     <label>sleeping pills</label>
@@ -19,9 +18,9 @@
     </statBases>
     <techLevel>Industrial</techLevel>
     <ingestible>
-	<joy>0.0</joy>
-	<foodType>Processed</foodType>
-	<baseIngestTicks>90</baseIngestTicks>
+      <joy>0.0</joy>
+      <foodType>Processed</foodType>
+      <baseIngestTicks>90</baseIngestTicks>
       <drugCategory>Medical</drugCategory>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
@@ -31,7 +30,7 @@
       </outcomeDoers>
     </ingestible>
     <recipeMaker>
-			<researchPrerequisite>PenoxycylineProduction</researchPrerequisite>
+      <researchPrerequisite>PenoxycylineProduction</researchPrerequisite>
       <recipeUsers>
         <li>DrugLab</li>
       </recipeUsers>
@@ -49,7 +48,6 @@
       </li>
     </comps>
   </ThingDef>
-  
   <HediffDef>
     <defName>SleepingPills</defName>
     <hediffClass>HediffWithComps</hediffClass>
@@ -57,27 +55,25 @@
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-2</severityPerDay>
       </li>
     </comps>
-      <stages>
-        <li>
-          <hungerRateFactor>-0.5</hungerRateFactor>
-		<capMods>
-			<li>
+    <stages>
+      <li>
+        <hungerRateFactor>-0.5</hungerRateFactor>
+        <capMods>
+          <li>
             <capacity>Consciousness</capacity>
-            <offset>-0.9</offset>
-			</li>
-			</capMods>
-			
-          <statOffsets>
-			<ImmunityGainSpeed>0.50</ImmunityGainSpeed>
-          </statOffsets>
-		  
-		</li>
-      </stages>
+            <setMax>0.1</setMax>
+          </li>
+        </capMods>
+        <statOffsets>
+          <ImmunityGainSpeed>0.50</ImmunityGainSpeed>
+        </statOffsets>
+      </li>
+    </stages>
   </HediffDef>
-  
 </Defs>
