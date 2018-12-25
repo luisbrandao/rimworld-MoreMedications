@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="MakeableDrugPillBase">
+    <defName>SleepingPills</defName>
+    <label>sleeping pills</label>
+    <description>Sleeping pills. Take one to instantly administer a desired comatose state in troubled patients with weakened immune systems. Warning: Once administered, the patient will be unresponsive und will need to be brought to a resting place.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/sleepingpills</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <MarketValue>25</MarketValue>
+      <Mass>0.005</Mass>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+	<joy>0.0</joy>
+	<foodType>Processed</foodType>
+	<baseIngestTicks>90</baseIngestTicks>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>SleepingPills</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+			<researchPrerequisite>PenoxycylineProduction</researchPrerequisite>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Neutroamine>6</Neutroamine>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.08</min>
+          <max>0.14</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <HediffDef>
+    <defName>SleepingPills</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>sleeping pills</label>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-2</severityPerDay>
+      </li>
+    </comps>
+      <stages>
+        <li>
+          <hungerRateFactor>-0.5</hungerRateFactor>
+		<capMods>
+			<li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.9</offset>
+			</li>
+			</capMods>
+			
+          <statOffsets>
+			<ImmunityGainSpeed>0.50</ImmunityGainSpeed>
+          </statOffsets>
+		  
+		</li>
+      </stages>
+  </HediffDef>
+  
+</Defs>

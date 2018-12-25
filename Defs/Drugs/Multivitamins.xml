@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="MakeableDrugPillBase">
+    <defName>Multivitamins</defName>
+    <label>multivitamins</label>
+    <description>A synthetic blend of vitamins A to Z. For those who can't live off of rice and squirrel meat alone. Taking every other day promotes good physical and mental health as well as high energy levels.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/vitamins</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <MarketValue>25</MarketValue>
+      <Mass>0.005</Mass>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>Multivitamins</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+			<researchPrerequisite>PenoxycylineProduction</researchPrerequisite>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Neutroamine>4</Neutroamine>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.08</min>
+          <max>0.14</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <HediffDef>
+    <defName>Multivitamins</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>multivitamins</label>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.5</severityPerDay>
+      </li>
+    </comps>
+      <stages>
+        <li>
+		
+		<capMods>
+			<li>
+            <capacity>Moving</capacity>
+            <offset>0.05</offset>
+			</li>
+			</capMods>
+          <statOffsets>
+            <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+			<GlobalLearningFactor>0.05</GlobalLearningFactor>
+			<MentalBreakThreshold>0.05</MentalBreakThreshold>
+			<ImmunityGainSpeed>0.10</ImmunityGainSpeed>
+			<PsychicSensitivity>-0.05</PsychicSensitivity>
+			<ToxicSensitivity>-0.05</ToxicSensitivity>			
+          </statOffsets>
+		  
+		</li>
+      </stages>
+  </HediffDef>
+  
+</Defs>
