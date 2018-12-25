@@ -10,7 +10,7 @@ This is a revive of an abandoned mod. Since this was reworked at least one time,
 im not even sure who is the Original Author.
 
 I am just keeping it alive, because i like the idea.
-	
+
 Adds more medications to Rimworld. For those who need more than squirrel meat and
 rice. Adds Multivitamins, Sleeping pills, ADHD Meds, Painkillers and Antidepressants.
 
@@ -35,7 +35,7 @@ Anti Depressants
         1 Severity /Day
         0.75 Global Learning factor
         0.15 Social Impact
-        0.15 Mental Break Threshold
+        -0.30 Mental Break Threshold
 
 ADHD meds
 
@@ -48,7 +48,7 @@ Sleeping Pills
 
         2 Severity /Day
         0.05 Hunger Rate
-        0.5 Consciousness
+        0.1 Consciousness
         0.50 Immunity Gain Speed
 
 Multi Vitamins
@@ -68,5 +68,30 @@ Credits (I think!)
 
 CricketSaysChill - Original Author
 Rustic Fox - Last maintainer
+
+
+
+Check out my other mods!
+
+More Medications - Reborn
+	- https://steamcommunity.com/sharedfiles/filedetails/?id=1601812699
+
+Hardcore Storytellers
+  - https://steamcommunity.com/sharedfiles/filedetails/?id=831774478
+
+Simple Loom
+  - https://steamcommunity.com/sharedfiles/filedetails/?id=1489517427
+
+Boots and Stuff
+  - https://steamcommunity.com/sharedfiles/filedetails/?id=1488970545
+
+Minigun2
+  - https://steamcommunity.com/sharedfiles/filedetails/?id=1588721300
+
+Chitin
+  - https://steamcommunity.com/sharedfiles/filedetails/?id=1488933307
+
+Shale - from oil to plastic
+  - https://steamcommunity.com/sharedfiles/filedetails/?id=1248055193
 </description>
 </ModMetaData>
