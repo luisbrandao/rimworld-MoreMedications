@@ -32,7 +32,7 @@
       </recipeUsers>
     </recipeMaker>
     <costList>
-      <healroot>4</healroot>
+      <MedicineHerbal>2</MedicineHerbal>
     </costList>
     <comps>
       <li Class="CompProperties_Drug">
@@ -61,6 +61,7 @@
       <li>
         <statOffsets>
           <ImmunityGainSpeed>0.10</ImmunityGainSpeed>
+          <BloodFiltration>0.10</BloodFiltration>
         </statOffsets>
       </li>
     </stages>
