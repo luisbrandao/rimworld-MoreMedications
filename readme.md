@@ -12,36 +12,30 @@ Sleeping Pills – 6 Neutroamine
 ADHD Meds – 6 Neutroamine
 Anti Depressants – 6 Neutroamine
 Pain Killers – 6 Neutroamine
-Medical Drink – 1 Healroot
+Medical Drink – 2 Healroot
 
 All medicines are craftable at the drug lab.
 Effects of the new medicine:
 
-Pain killers
-  Lasts one day
-  - 0.65 Pain Offset
-  + 0.10 Blood Pumping
-  + 0.05 Immunity Gain
-
-Anti Depressants
-    Lasts one day
-  - 0.75 Global Learning factor
-  - 0.15 Social Impact
-  - 0.30 Mental Break Threshold
-
-ADHD meds
+AdhdMedication
   Lasts one day
   + 0.05 Global Learning factor
   + 0.05 Social Impact
   + 0.05 Mental Break Threshold
+  - 0.5 Eating speed
 
-Sleeping Pills
-  Last 12 Hours
-  limit Consciousness to 0.1
-  - 0.05 Hunger Rate
-  + 0.50 Immunity Gain Speed
+Antidepressants
+  Lasts one day
+  - 0.75 Global Learning factor
+  - 0.40 Mental Break Threshold
+  - 0.15 Social Impact
 
-Multi Vitamins
+Medical drink
+  Lasts 2 days
+  + 0.10 Immunity Gain Speed
+  + 0.10 Blood Filtration
+
+Multivitamins
   Lasts 2 days
   + 0.05 Moving
   + 0.05 Global Work Speed
@@ -51,9 +45,17 @@ Multi Vitamins
   - 0.05 Psychic Sensitivity
   - 0.05 Toxic Sensitivity
 
-Medical drink
-  Lasts 2 days
-  + 0.10 Immunity Gain Speed
+Pain killers
+  Lasts one day
+  - 0.65 Pain Offset
+  - 0.10 Blood Pumping
+  - 0.05 Immunity Gain
+
+Sleeping Pills
+  Last 12 Hours
+  limit Consciousness to 0.1
+  - 0.05 Hunger Rate
+  + 0.50 Immunity Gain Speed
 
 
 

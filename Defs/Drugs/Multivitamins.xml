@@ -52,7 +52,7 @@
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>
-    <isBad>false</isBad>    
+    <isBad>false</isBad>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.5</severityPerDay>
@@ -69,7 +69,7 @@
         <statOffsets>
           <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
           <GlobalLearningFactor>0.05</GlobalLearningFactor>
-          <MentalBreakThreshold>0.05</MentalBreakThreshold>
+          <MentalBreakThreshold>-0.05</MentalBreakThreshold>
           <ImmunityGainSpeed>0.10</ImmunityGainSpeed>
           <PsychicSensitivity>-0.05</PsychicSensitivity>
           <ToxicSensitivity>-0.05</ToxicSensitivity>
