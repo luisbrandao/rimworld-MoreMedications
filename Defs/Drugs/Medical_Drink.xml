@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ThingDef ParentName="MakeableDrugPillBase">
+    <defName>MedicalDrink</defName>
+    <label>medical drink</label>
+    <description>A simple and cheap healroot extract. Boost your imunity and lets you to heal faster. Lasts two days.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/medicaldrink</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <MarketValue>20</MarketValue>
+      <Mass>0.005</Mass>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>MedicalDrink</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <healroot>4</healroot>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.08</min>
+          <max>0.14</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>MedicalDrink</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>medical drink</label>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.5</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ImmunityGainSpeed>0.10</ImmunityGainSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>
