@@ -21,7 +21,7 @@
       <drugCategory>Medical</drugCategory>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>Antidepressants</hediffDef>
+          <hediffDef>Soothingpills</hediffDef>
           <severity>1.0</severity>
         </li>
       </outcomeDoers>
@@ -46,9 +46,9 @@
     </comps>
   </ThingDef>
   <HediffDef>
-    <defName>Antidepressants</defName>
+    <defName>Soothingpills</defName>
     <hediffClass>HediffWithComps</hediffClass>
-    <label>antidepressants</label>
+    <label>Soothing pills</label>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>
@@ -62,7 +62,7 @@
       <li>
         <statOffsets>
           <GlobalLearningFactor>-0.75</GlobalLearningFactor>
-          <MentalBreakThreshold>-0.40</MentalBreakThreshold>
+          <MentalBreakThreshold>-0.60</MentalBreakThreshold>
           <SocialImpact>-0.15</SocialImpact>
         </statOffsets>
       </li>

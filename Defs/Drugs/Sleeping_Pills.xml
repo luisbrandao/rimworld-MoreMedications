@@ -24,7 +24,7 @@
       <drugCategory>Medical</drugCategory>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>SleepingPills</hediffDef>
+          <hediffDef>KnockoutPills</hediffDef>
           <severity>1.0</severity>
         </li>
       </outcomeDoers>
@@ -49,9 +49,9 @@
     </comps>
   </ThingDef>
   <HediffDef>
-    <defName>SleepingPills</defName>
+    <defName>KnockoutPills</defName>
     <hediffClass>HediffWithComps</hediffClass>
-    <label>sleeping pills</label>
+    <label>knockout pills</label>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>
