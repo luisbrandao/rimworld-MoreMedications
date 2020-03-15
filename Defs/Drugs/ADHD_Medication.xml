@@ -49,7 +49,7 @@
     <defName>AdhdMedication</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <label>adhd medication</label>
-    <description>Adhd medication administered. Increased learning rates.<description/>
+    <description>Adhd medication administered. Increased learning rates.</description>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>

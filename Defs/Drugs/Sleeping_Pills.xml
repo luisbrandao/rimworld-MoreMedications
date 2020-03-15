@@ -52,7 +52,7 @@
     <defName>KnockoutPills</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <label>knockout pills</label>
-    <description>Unconscious due sleeping pills<description/>
+    <description>Unconscious due sleeping pills</description>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>

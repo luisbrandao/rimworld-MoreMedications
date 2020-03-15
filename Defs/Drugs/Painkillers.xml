@@ -48,7 +48,7 @@
   <HediffDef>
     <defName>Painkillers</defName>
     <hediffClass>HediffWithComps</hediffClass>
-    <description>Can feel almost no pain due painkillers<description/>
+    <description>Can feel almost no pain due painkillers</description>
     <label>painkillers</label>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
