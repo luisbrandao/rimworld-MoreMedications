@@ -47,6 +47,7 @@
   </ThingDef>
   <HediffDef>
     <defName>Soothingpills</defName>
+    <description>Antidepressants medication administered. Numb to the world.<description/>
     <hediffClass>HediffWithComps</hediffClass>
     <label>Soothing pills</label>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>

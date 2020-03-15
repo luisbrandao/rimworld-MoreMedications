@@ -48,11 +48,12 @@
   <HediffDef>
     <defName>Painkillers</defName>
     <hediffClass>HediffWithComps</hediffClass>
+    <description>Can feel almost no pain due painkillers<description/>
     <label>painkillers</label>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>
-    <isBad>false</isBad>    
+    <isBad>false</isBad>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-1</severityPerDay>

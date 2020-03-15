@@ -47,6 +47,7 @@
   <HediffDef>
     <defName>MedicalDrink</defName>
     <hediffClass>HediffWithComps</hediffClass>
+    <description>Immunity beeing bosted by a medical drink.<description/>
     <label>medical drink</label>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>

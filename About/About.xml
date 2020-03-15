@@ -3,9 +3,10 @@
 <ModMetaData>
 <name>More Medications - Reborn</name>
 <author>Techmago</author>
+<packageId>Techmago.MoreMedications</packageId>
 <url>https://github.com/luisbrandao/rimworld-MoreMedications</url>
 <supportedVersions>
-    <li>1.0</li>
+    <li>1.1</li>
 </supportedVersions>
 <description>
   This is a revive of an abandoned mod. Since this was reworked at least one time,
