@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<MedicalDrink.label>лечебный напиток</MedicalDrink.label>
+<MedicalDrink.description>Простой и дешевый экстракт целебных корней. Повысьте свой иммунитет и вылечитесь быстрее. Действует два дня.</MedicalDrink.description>
+<MedicalDrink.ingestible.ingestCommandString>Пить {0}</MedicalDrink.ingestible.ingestCommandString>
+<MedicalDrink.ingestible.ingestReportString>Пьёт {0}</MedicalDrink.ingestible.ingestReportString>
+
+</LanguageData>
