@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<Antidepressants.label>антидепересанты</Antidepressants.label>
+<Antidepressants.description>Они говорят, что вы можете залечить внешние раны, но не внутренние. Возможно, они правы ... но с помощью этого синтетического лекарства вы можете их обезболить! Принимать один раз в день.</Antidepressants.description>
+<Antidepressants.ingestible.ingestCommandString>Принять {0}</Antidepressants.ingestible.ingestCommandString>
+<Antidepressants.ingestible.ingestReportString>Принимает {0}</Antidepressants.ingestible.ingestReportString>
+
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<Multivitamins.label>поливитамины</Multivitamins.label>
+<Multivitamins.description>Синтетическая смесь витаминов от А до Я. Для тех, кто не может жить только на одном рисе и беличьем мясе. Приём препарата раз в два дня способствует хорошему физическому и психическому здоровью, а также высокому уровню энергии.</Multivitamins.description>
+<Multivitamins.ingestible.ingestCommandString>Принять {0}</Multivitamins.ingestible.ingestCommandString>
+<Multivitamins.ingestible.ingestReportString>Принимает {0}</Multivitamins.ingestible.ingestReportString>
+
+</LanguageData>
