@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<SleepingPills.label>cнотворное</SleepingPills.label>
+<SleepingPills.description>Всего одна таблетка для того, чтобы немедленно усыпить проблемного пациента с ослабленной иммунной системой.\nПредупреждение: после приёма лекарства пациент не сможет двигаться и должен быть доставлен к месту отдыха.</SleepingPills.description>
+<SleepingPills.ingestible.ingestCommandString>Принять {0}</SleepingPills.ingestible.ingestCommandString>
+<SleepingPills.ingestible.ingestReportString>Принимает {0}</SleepingPills.ingestible.ingestReportString>
+
+</LanguageData>

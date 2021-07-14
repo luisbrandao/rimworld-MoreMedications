@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<Painkillers.label>обезболивающие</Painkillers.label>
+<Painkillers.description>Примите для мгновенного облегчения боли.\nМожет вызвать осложнения, связанные с кровяным давлением.</Painkillers.description>
+<Painkillers.ingestible.ingestCommandString>Принять {0}</Painkillers.ingestible.ingestCommandString>
+<Painkillers.ingestible.ingestReportString>Принимает {0}</Painkillers.ingestible.ingestReportString>
+
+</LanguageData>

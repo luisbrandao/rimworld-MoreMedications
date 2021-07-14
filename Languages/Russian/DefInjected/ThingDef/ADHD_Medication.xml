@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<AdhdMedication.label>таблетки от СДВГ</AdhdMedication.label>
+<AdhdMedication.description>Универсальный препарат для тех, кому трудно сосредоточиться на своих задачах в течение дня. Всего одна таблетка в день, позволяет соответствовать ментальным стандартам, установленным обществами Rimworld! Будь внимательным, будь продуктивным, будь мертвым внутри.\nМожет вызвать потерю аппетита. Принимать один раз в день.</AdhdMedication.description>
+<AdhdMedication.ingestible.ingestCommandString>Принять {0}</AdhdMedication.ingestible.ingestCommandString>
+<AdhdMedication.ingestible.ingestReportString>Принимает {0}</AdhdMedication.ingestible.ingestReportString>
+
+</LanguageData>
