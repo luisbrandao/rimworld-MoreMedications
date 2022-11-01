@@ -73,7 +73,7 @@
           <MentalBreakThreshold>-0.05</MentalBreakThreshold>
           <ImmunityGainSpeed>0.10</ImmunityGainSpeed>
           <PsychicSensitivity>-0.05</PsychicSensitivity>
-          <ToxicSensitivity>-0.05</ToxicSensitivity>
+          <ToxicResistance>0.05</ToxicResistance>
         </statOffsets>
       </li>
     </stages>
